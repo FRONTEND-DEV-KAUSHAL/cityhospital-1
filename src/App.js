@@ -8,6 +8,7 @@ import Doctors from './Container/doctors/Doctors';
 import About from './Container/about/About';
 import Contact from './Container/contact/Contact';
 import {Route,Switch} from 'react-router-dom';
+import Medicen from './Container/medicen/Medicen';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             <Route path={'/Doctors'} exact component={Doctors}></Route>
             <Route path={'/About'} exact component={About}></Route>
             <Route path={'/Contact'} exact component={Contact}></Route>
+            <Route parth={'/Medicen'} exact component={Medicen}></Route>
 
 
 
